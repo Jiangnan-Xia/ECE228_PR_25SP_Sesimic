@@ -39,6 +39,7 @@ There are two main model files: LSTM_Code-\<type\>.ipynb for the LSTM models and
 <h2>To run the code</h2>  
 
 <h3>For using pre-trained models</h3>  
+
 1. Install packages as specified.  
 2. Make sure the scaling parameters match what the pre-trained models used in code cell 2 (detailed instructions in the code).  
 3. Disable all algorithms in cell 3 (set ALL to False).  
@@ -55,6 +56,7 @@ There are two main model files: LSTM_Code-\<type\>.ipynb for the LSTM models and
 		The 6th plot is a print-out of (trimmed, if set True) ground motion data from the dataset, for ease of comparison.  
  
 <h3>For training</h3>  
+
 1. Install packages as specified.  
 2. Change variables as desired in code cells 2 and 3 (detailed explanation in the code).  
 3. Change algorithm-specific hyperparameters as desired in XXX experiment cells, where XXX is replaced by the name of the algorithm. Change save name in the last lines of the cell if necessary.  

@@ -26,14 +26,14 @@ There are two main model files: LSTM_Code-\<type\>.ipynb for the LSTM models and
 │       └── Fixed_Base_Moment_Frame  
 │           └── <em>Datasets for training under this category</em>  
 ├── Model  
-│   ├── LSTM models
+│   ├── LSTM models  
 │   └── README.txt  
 ├── Simple_Networks.ipynb  
 └── LSTM-xxx.ipynb  
 
 <h1>For LSTM-xxx.ipynb</h1>  
   
-<h2>Notes</h2> 
+<h2>Notes</h2>  
   
 LSTM used datasets in-place (no manual split of training and testing sets). To use the LSTM model, the structure of Data should be:  
 .  

@@ -46,19 +46,7 @@ Use the data folder provided by a link in the "Data for Regression and LSTM with
   
 <h2>Notes</h2>  
   
-LSTM used datasets in-place (no manual split of training and testing sets). To use the LSTM model, the structure of Data should be:  
-.  
-├── Data  
-│   ├── Base_Isolated_Moment_Frame_with_Impact_on_Concrete_Moat_Wall  
-│   │   └── <em>Datasets for both training and testing under this category</em>  
-│   ├── Base_Isolated_Moment_Frame_with_Impact_on_Steel_Moat_Wall  
-│   │   └── <em>Datasets under this category</em>  
-│   ├── Base_Isolated_Moment_Frame_without_Impact  
-│   │   └── <em>Datasets under this category</em>  
-│   └── Fixed_Base_Moment_Frame  
-│       └── <em>Datasets under this category</em>  
-...  
-
+Use the data folder provided by a link in the "Data for LSTM without Impact" folder. Install the specified packages and run the cells in order. This process will automatically upload the data and split it into training and testing sets. You can manually adjust the global hyperparameters, including seq_len set to 500, stride to 5, batch_size to 64, grid search epochs to 50, final training epochs to 50, test_ratio to 0.2, and step_size to 10. 
 Pre-trained models are included in Models folder.  
 
 <h1>For LSTM_Impact_Contact_Force.ipynb and LSTM_Impact_Floor_Acceleration.ipynb</h1>  

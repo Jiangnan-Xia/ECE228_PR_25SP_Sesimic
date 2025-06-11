@@ -30,7 +30,11 @@ There are three main model files: Regression_Models.ipynb for the Regression mod
 │   ├── LSTM models  
 │   └── README.txt  
 ├── Simple_Networks.ipynb  
-└── LSTM-xxx.ipynb  
+├── Regression_Models.ipynb 
+├── LSTM_Code-Base_isolated.ipynb 
+├── LSTM_Impact_Contact_Force.ipynb 
+├── LSTM_Impact_Floor_Acceleration.ipynb 
+└── LSTM_Code-Fixed_base.ipynb  
 
 <h1>For Denosing.ipynb.ipynb and Filtering.ipynb</h1>  
   

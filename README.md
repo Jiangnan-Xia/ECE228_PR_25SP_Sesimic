@@ -34,7 +34,7 @@ There are three main model files: Regression_Models.ipynb for the Regression mod
 ├── LSTM_Code-Base_isolated.ipynb 
 ├── LSTM_Impact_Contact_Force.ipynb 
 ├── LSTM_Impact_Floor_Acceleration.ipynb 
-└── LSTM_Code-Fixed_base.ipynb  
+└──LSTM_Code-Fixed_base.ipynb  
 
 <h1>For Denosing.ipynb.ipynb and Filtering.ipynb</h1>  
   

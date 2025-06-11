@@ -32,6 +32,11 @@ There are three main model files: Regression_Models.ipynb for the Regression mod
 ├── Simple_Networks.ipynb  
 └── LSTM-xxx.ipynb  
 
+<h1>For Denosing.ipynb.ipynb and Filtering.ipynb</h1>  
+  
+<h2>Notes</h2>  
+Install the required packages and run the script in order. The code automatically processes .asc files from the specified folders, extracts key structural response parameters, and saves the filtered output as .txt files with headers and physical units. If acceleration data are missing, the script estimates velocity and acceleration from displacement using Savitzky-Golay smoothing. A fourth-order zero-phase Butterworth low-pass filter is applied to each parameter to reduce high-frequency noise. Users can enable or disable plots by setting enable_plotting = True or False. Filtering behavior can be customized by modifying the filter_settings dictionary, where cutoff frequencies and filter types for each parameter can be adjusted as needed. This flexibility allows users to tailor the filtering process based on signal characteristics or specific application requirements.
+
 <h1>For Regression_Models.ipynb</h1>  
   
 <h2>Notes</h2>  

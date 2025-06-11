@@ -42,7 +42,7 @@ Install the required packages and run the script in order. The code automaticall
 <h2>Notes</h2>  
 Use the data folder provided by a link in the "Data for Regression and LSTM with Impact" folder. Install the specified packages and run the cells in order. This will automatically upload the data and split it into training and testing sets. By using the True and False options, you can plot the input data. Additionally, you can manually adjust the predictor parameters for different models. For the ridge and lasso regression models, you can modify the alpha value, while for the polynomial regression model, you can change the degree. In the random forest regression model, you can also adjust the number of decision trees.  
 
-<h1>For LSTM-xxx.ipynb</h1>  
+<h1>For LSTM_Code-Fixed_base.ipynb and LSTM_Code-Base_isolated.ipynb</h1>  
   
 <h2>Notes</h2>  
   

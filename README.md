@@ -26,13 +26,29 @@ There are two main model files: LSTM_Code-\<type\>.ipynb for the LSTM models and
 │       └── Fixed_Base_Moment_Frame  
 │           └── <em>Datasets for training under this category</em>  
 ├── Model  
+│   ├── LSTM models
 │   └── README.txt  
 ├── Simple_Networks.ipynb  
 └── LSTM-xxx.ipynb  
 
 <h1>For LSTM-xxx.ipynb</h1>  
+  
+<h2>Notes</h2> 
+  
+LSTM used datasets in-place (no manual split of training and testing sets). To use the LSTM model, the structure of Data should be:  
+.  
+├── Data  
+│   ├── Base_Isolated_Moment_Frame_with_Impact_on_Concrete_Moat_Wall  
+│   │   └── <em>Datasets for both training and testing under this category</em>  
+│   ├── Base_Isolated_Moment_Frame_with_Impact_on_Steel_Moat_Wall  
+│   │   └── <em>Datasets under this category</em>  
+│   ├── Base_Isolated_Moment_Frame_without_Impact  
+│   │   └── <em>Datasets under this category</em>  
+│   └── Fixed_Base_Moment_Frame  
+│       └── <em>Datasets under this category</em>  
+...  
 
-
+Pre-trained models are included in Models folder.  
 
 <h1>For Simple_Networks.ipynb</h1>  
 
@@ -126,6 +142,7 @@ During training of models we provide, the training and testing datasets were spl
 │           ├── filtered_fbgm162s3_denoised.txt  
 │           ├── filtered_fbgm162s4_denoised.txt  
 │           └── filtered_fbgm162s5_denoised.txt  
+...  
 
 The pre-trained models must be downloaded separately and may be saved as:  
 .  
@@ -134,4 +151,6 @@ The pre-trained models must be downloaded separately and may be saved as:
 │   ├── mlp_steel  
 │   ├── mlp_float  
 │   └── mlp_fixed  
+...
+  
 Each model is capable of predicting datasets in its own category.  

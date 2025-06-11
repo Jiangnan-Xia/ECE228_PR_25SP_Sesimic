@@ -50,6 +50,11 @@ LSTM used datasets in-place (no manual split of training and testing sets). To u
 ...  
 
 Pre-trained models are included in Models folder.  
+<h1>For Regression_Models.ipynb</h1>  
+  
+<h2>Notes</h2>  
+Install the specified packages and run the cells in order. This will automatically upload the data and split it into training and testing sets. By using the True and False options, you can plot the input data. Additionally, you can manually adjust the predictor parameters for different models. For the ridge and lasso regression models, you can modify the alpha value, while for the polynomial regression model, you can change the degree. In the random forest regression model, you can also adjust the number of decision trees.  
+
 
 <h1>For Simple_Networks.ipynb</h1>  
 

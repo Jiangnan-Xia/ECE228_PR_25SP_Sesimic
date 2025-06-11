@@ -1,7 +1,7 @@
 <h1>README</h1>
 This is the repository for ECE228 (2025 Spring) project group Machine Learning Based Prediction of Seismic Response and Impact Forces in Fixed-Base and Base-Isolated Buildings
 
-There are two main model files: LSTM_Code-\<type\>.ipynb for the LSTM models (separate files for different types of the problem. All use the same basic structure) and Simple_Networks.ipynb for MLP and more.  
+There are three main model files: Regression_Models.ipynb for the Regression models and LSTM_Code-\<type\>.ipynb for the LSTM models (separate files for different types of the problem) and Simple_Networks.ipynb for MLP and more.  
 
 <h2>Structure</h2>   
 
@@ -25,7 +25,8 @@ There are two main model files: LSTM_Code-\<type\>.ipynb for the LSTM models (se
 │       │   └── <em>Datasets for training under this category</em>  
 │       └── Fixed_Base_Moment_Frame  
 │           └── <em>Datasets for training under this category</em>  
-├── Model  
+├── Model 
+|   ├── Regression models  
 │   ├── LSTM models  
 │   └── README.txt  
 ├── Simple_Networks.ipynb  
